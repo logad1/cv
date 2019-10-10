@@ -1,134 +1,66 @@
-body {
-  background-color: #badfdb;
-  text-align: center;
-  font-family: 'Merriweather', serif;
-}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Logan Luebker</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <div class="top">
+      <img class="cloud1 "src="images/cloud.png" alt="cloud image">
+      <h1>my name is <span class="logan">Logan</span>.</h1>
+      <h2 class="h2">i am a chef and aspiring web developer</h2>
+        <img class="cloud2" src="images/cloud.png" alt="cloud image">
+        <img class="mountain1" src="images/mountain.png" alt="mountain image">
+    </div>
+    <div class="middle-container">
+      <div class="profile">
+        <img class="self-image" src="images/logan1.png" alt="Image of self">
+        <h2>Hello and Welcome.</h2>
+        <p class="first-p">welcome to the second website i have created.</p>
+      </div>
+      <hr>
+      <div class="skills">
+        <h2>My Skills.</h2>
+
+        <div class="skill-row">
+          <img class="salad" src="images/salad.png" alt="image of salad">
+
+          <h3 class=being-a-chef>Being a <span class="chef">Chef</span></h3>
+          <p class="chef-skill">for the past eight years i have worked in kitchens. for close to four years i have been in management as a sous chef.</p>
+
+        </div>
+        <div class="skill-row">
+          <img class="creativity" src="images/creativity.png" alt="Image of Creative tool">
+
+          <h3>Aspiring <span class="designer">Designer</span> and <span class="artist">Artist</span> </h3>
+          <p class="art-design-skill">i have a dream to become a designer and to come full circle with my creative career, which abruptly ended before it began. i have embraced that side of me recently and am planning on it taking over as my primary passion.</p>
+
+        </div>
+      </div>
+      <hr>
+      <div class="contact-me">
+        <h2>Get In <span class='touch'>Touch</span> </h2>
+        <h3>would you like to know more?</h3>
+        <p> (placeholder)?? here is a link to my resume?? </p>
+        <a href="mailto:luebkerlogan@gmail.com" class="myButton">Contact Me</a>
+      </div>
+    </div>
 
 
-hr{
-  border-color: white;
-  border-style: dotted;
-  border-width: 6px;
-  border-bottom: none;
-  width:5%;
+    <div class="bottom-container">
+      <a class="footer-link" href="https://www.goodcitybrewing.com">my current work</a>
+      <a class="footer-link" href="https://www.instagram.com/logad/">instagram</a>
+      <a class="footer-link" href="https://www.instagram.com/logad_art/">art instagram</a>
+      <a class="footer-link" href="https://logad1.github.io/cv">my first website</a>
+      <p class="copywrite">© 2019 Logan Luebker.</p>
+      <div class="design-credit">Icons made by <a href="https://www.flaticon.com/authors/monkik" title="monkik">monkik</a> from <a href="https://www.flaticon.com/"title="Flaticon">www.flaticon.com</a></div>
+      <div class="design-credit">Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/"title="Flaticon">www.flaticon.com</a></div>
+    </div>
 
-}
-
-h1 {
-  font-family: 'Sacramento', cursive;
-  font-size: 100px;
-  margin:50px auto 0 auto;
-  color: #66bfbf;
-}
-h2{
-  font-size: 2.5rem;
-  color: #66bfbf;
-}
-h3{
-  font-size: 20px;
-  letter-spacing: 1.25px;
-  color: #11999e;
-}
-p{
-  font-family: 'Montserrat',sans-serif;
-}
-a{
-  color: #11999e;
-  font-family: 'Montserrat', sans-serif;
-  text-decoration: none;
-}
-a:hover{
-  color: #eaf6f6;
-}
-.top{
-background-color: #f5f0e3;
-margin: 0;
-}
-.h2{
-  font-weight: normal;
-}
-.first-p{
-  margin: auto auto 25px auto;
-}
-
-.self-image {
-  padding-top: 50px;
-  width: 150px;
-}
-.design-credit{
-  font-size: 10px;
-}
-.skill-row{
-  width: 50%;
-  margin:100px auto 100px auto;
-  text-align: left;
-
-}
-.chef-skill{
-  line-height: 2;
-}
-.art-design-skill{
-  line-height: 2;
-}
-.salad{
-  width: 25%;
-  float: left;
-  margin-right: 30px;
-}
-
-.creativity{
-  width:25%;
-  float: right;
-  margin-left: 30px;
-}
-.contact-me{
-  line-height: 2;
-}
-.cloud1 {
-  position: relative;
-  left: 150px;
-  top: 25px;
-  margin-top: 50px;
-}
-
-.cloud2 {
-  position: relative;
-  bottom: 300px;
-  left: 150px;
-}
-
-.mountain1 {
-  position: relative;
-  right: 60px;
-}
-.myButton {
-	box-shadow: 0 10px 14px -7px #276873;
-	background:linear-gradient(to bottom, #11999e 5%, #408c99 100%);
-	background-color:#11999e;
-	border-radius:8px;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family: Montserrat;
-	font-size:20px;
-	font-weight:normal;
-	padding:13px 32px;
-	text-decoration:none;
-	text-shadow:0 1px 0 #3d768a;
-  margin: 50px auto 50px auto;
-}
-.footer-link{
-  margin-right: 50px;
-  margin-top: 50px;
-}
-.bottom-container{
-  background-color: #66bfbf;
-  height: 100px;
-  padding: 50px 0 20px;
-  width: 100%;
-}
-.copywrite{
-  color: #eaf6f6;
-  padding: 20px 0;
-  font-size: .75em;
-}
+  </body>
+</html>
